@@ -1,0 +1,9 @@
+source_device,source_port,destination_device,destination_port,source_role,destination_role,connection_type
+Room mic,OUT,Mixer,CH 1,room_mic,mixer,cable
+Remote guest,USB OUT,Mixer,CH 2,guest,mixer,cable
+Mixer,MAIN,House speakers,IN,mixer,house,cable
+Mixer,AUX 1,Call input,USB IN,mixer,call_return,cable
+Mixer,CH 1,Mixer,MAIN,mixer,mixer,send
+Mixer,CH 2,Mixer,MAIN,mixer,mixer,send
+Mixer,CH 1,Mixer,AUX 1,mixer,mixer,send
+Mixer,CH 2,Mixer,AUX 1,mixer,mixer,send

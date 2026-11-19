@@ -1,0 +1,13 @@
+source_device,source_port,destination_device,destination_port,source_role,destination_role,connection_type
+Lead synth,OUT,FOH desk,CH 1,lead,mixer,cable
+Drum machine,OUT,FOH desk,CH 2,beat,mixer,cable
+FOH desk,MAIN,House PA,LINE IN,mixer,house,cable
+FOH desk,AUX 1,Stream PC,INPUT 1,mixer,stream,cable
+FOH desk,FX SEND,FOH desk,FX RETURN,mixer,mixer,cable
+FOH desk,CH 1,FOH desk,MAIN,mixer,mixer,send
+FOH desk,CH 2,FOH desk,MAIN,mixer,mixer,send
+FOH desk,CH 1,FOH desk,AUX 1,mixer,mixer,send
+FOH desk,CH 1,FOH desk,FX SEND,mixer,mixer,send
+FOH desk,FX RETURN,FOH desk,FX SEND,mixer,mixer,send
+FOH desk,FX RETURN,FOH desk,MAIN,mixer,mixer,send
+FOH desk,FX RETURN,FOH desk,AUX 1,mixer,mixer,send

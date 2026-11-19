@@ -1,0 +1,5 @@
+source_device,source_port,destination_device,destination_port,source_role,destination_role
+Lead synth,OUT,FOH desk,CH 1,lead,mixer
+Drum machine,OUT,FOH desk,CH 2,beat,mixer
+FOH desk,MAIN,House PA,LINE IN,mixer,house
+FOH desk,AUX 1,Stream PC,INPUT 1,mixer,stream

@@ -1,0 +1,12 @@
+{
+  "name": "patchroom-soundcheck",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "test": "node scripts/verify-solver.cjs"
+  },
+  "dependencies": {
+    "@relate/relate-wasm": "1.1.0"
+  }
+}
