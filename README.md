@@ -4,6 +4,8 @@ A virtual soundcheck for a hybrid event. Both voices belong in the room; only th
 
 ## Run the demo
 
+[Try Patchroom in your browser](https://shumpei0706.github.io/patchroom/) · [Watch the 94-second film](https://shumpei0706.github.io/patchroom/film/)
+
 Download the repository as a ZIP, extract it, and open **index.html** in a current desktop Chrome browser. The checked-in page includes Relate, the audio cues and the pixel art. It works offline and requires no account, API key, microphone permission or backend. For a local HTTP preview, run `python3 -m http.server 8000 --bind 127.0.0.1` in the project folder and visit `http://127.0.0.1:8000/`.
 
 ## A 45-second soundcheck

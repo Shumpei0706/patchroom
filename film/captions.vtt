@@ -1,0 +1,102 @@
+WEBVTT
+
+1
+00:00:01.200 --> 00:00:05.391
+Imagine hearing your own voice come back while you are trying to speak.
+
+2
+00:00:07.600 --> 00:00:11.369
+In the venue, guests should hear the host and the remote guest.
+
+3
+00:00:11.369 --> 00:00:13.881
+The call return should carry only the host.
+
+4
+00:00:17.400 --> 00:00:19.419
+Relate runs inside the browser.
+
+5
+00:00:19.419 --> 00:00:21.841
+It stores sockets and signal edges.
+
+6
+00:00:21.841 --> 00:00:26.282
+Cypher traces the original route from each source to its outputs.
+
+7
+00:00:27.500 --> 00:00:28.721
+No signal loop here.
+
+8
+00:00:28.721 --> 00:00:32.690
+Channel two sends the remote guest back to the call through aux one.
+
+9
+00:00:36.300 --> 00:00:38.452
+Patchroom tests possible edits in JavaScript.
+
+10
+00:00:38.452 --> 00:00:40.962
+Switch off channel two to aux one.
+
+11
+00:00:40.962 --> 00:00:42.755
+Keep its send to main.
+
+12
+00:00:46.700 --> 00:00:48.650
+Room mic: “Can you hear me?”
+
+13
+00:00:49.580 --> 00:00:51.560
+Remote guest: “I hear you.”
+
+14
+00:00:52.250 --> 00:00:54.120
+Room mic: “Can you hear me?”
+
+15
+00:00:55.120 --> 00:00:57.160
+[The remote guest is absent from their own return.]
+
+16
+00:00:58.680 --> 00:01:00.560
+Remote guest: “I hear you.”
+
+17
+00:01:02.320 --> 00:01:04.450
+Remote guest: “I hear you.”
+
+18
+00:01:06.500 --> 00:01:08.509
+Same timeline, two listening points.
+
+19
+00:01:08.509 --> 00:01:10.920
+The caller no longer hears themselves,
+
+20
+00:01:10.920 --> 00:01:13.733
+and the venue still hears both voices.
+
+21
+00:01:15.400 --> 00:01:18.628
+Bring in a patch list as a CSV file.
+
+22
+00:01:18.628 --> 00:01:20.681
+This stage rig has a feedback loop.
+
+23
+00:01:20.681 --> 00:01:21.855
+One cable breaks it.
+
+24
+00:01:25.600 --> 00:01:25.973
+Patchroom.
+
+25
+00:01:25.973 --> 00:01:30.081
+Rehearse your routing before the doors open, right in your browser.
+

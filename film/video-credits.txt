@@ -1,0 +1,17 @@
+Patchroom
+An independent hackathon project by STUDIO GENNAI.
+
+SCREEN AND SOUND
+English demonstration footage, patch sheets and illustrations are from the actual Patchroom application. The pixel-art venue and devices were made with OpenAI ImageGen. All wiring and audio scenarios are fictional. Soundcheck dialogue was written for this project. The call-return and house-PA comparisons are taps of the app's Web Audio output with its respective routing states active. The film adds its own captions and explanation. Both comparisons play at the same mix gain, with no music or narrator underneath.
+
+VOICE
+The narrator and soundcheck voices use local Piper synthesis, en_US-ljspeech-high by Bryce Beattie. The model card identifies the public-domain LJ Speech Dataset as its source. Only rendered dialogue is distributed.
+https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD
+https://keithito.com/LJ-Speech-Dataset/
+
+PRODUCTION
+Claude Code directed the visual treatment, scripted the initial cut, designed the listening sequence and authored the motion-graphics renderer. Codex integrated the working app footage, synthesized speech, adapted the edit and mixed and mastered the finished film. AGY reviewed the concept and spoken copy. Original programmatic score, relay clicks and other edit sounds were made for this film.
+
+TECHNOLOGY
+Patchroom uses Relate by Neo4j through @relate/relate-wasm 1.1.0 for browser-local graph storage and original-route traversal. Candidate changes are evaluated in local JavaScript. The Web Audio API renders what each destination hears. Relate is licensed under Apache 2.0.
+https://github.com/relatedb/relate
