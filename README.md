@@ -22,7 +22,9 @@ English is the initial interface language. The Japanese option is labelled 日�
 
 The [meeting](examples/venue-hybrid.csv), [loop](examples/venue-loop.csv) and [basic mixer](examples/venue-patch.csv) CSVs can be loaded from disk. Use `source_device,source_port,destination_device,destination_port` as the four required columns. Optional columns are `source_role,destination_role,connection_type`. For a mixer’s internal input-to-output path, use the same mixer in both device columns and `send` for connection_type. Omitted internal sends can be edited in the matrix. `cable` describes a physical output-to-input connection. CSV data stays inside the browser.
 
-## What Relate contributes
+## How it uses Relate
+
+**Mode: in memory.** A soundcheck is a temporary rehearsal. The embedded engine builds its graph in the browser so an engineer can try changes offline without uploading venue data. Reloading rebuilds the example. To inspect the same input, open [the meeting patch](examples/venue-hybrid.csv) or [the loop patch](examples/venue-loop.csv), import the CSV and select **Trace the ports**. The [narrated demo](https://youtu.be/q4uR_q3r1jc) shows the graph and its routing results.
 
 The app embeds **@relate/relate-wasm 1.1.0**. A mixer has separate input and output jacks. Cables and enabled sends become directed SIGNAL edges between jack nodes. For example, connecting the desk’s two channels to MAIN does not imply that both should also reach AUX 1.
 
